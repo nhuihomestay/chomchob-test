@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "compilerOptions": {
+    "types": ["node"],
+    "module": "commonjs",
+    "declaration": true,
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "es2016",
+    "moduleResolution": "node",
+    "paths": {
+      "@ctr": [
+        "src/ctr"
+      ],
+      "@routes": [
+        "src/routes"
+      ],
+      "@daos": [
+        "src/daos"
+      ],
+    },
+  },
+  "include": [
+    "./src/**/*",
+    "spec/**/*.ts"
+  ],
+  "exclude": [
+    "src/public/"
+  ]
+}
