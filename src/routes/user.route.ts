@@ -5,7 +5,6 @@ const router = Router()
 router.get('/', async (req: Request, res: Response) => {
     const userCtr = new UserCtr()
     const result = await userCtr.getUser(req.headers.token)
-    console.log(result)
     res.status(result.status).json({
         data: result.data,
         statusCode: result.code,

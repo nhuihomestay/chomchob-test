@@ -6,5 +6,6 @@
 ### Run
 - Local development: `npm run dev`
 
-### cURL
-- POSTMAN: https://documenter.getpostman.com/view/14118125/2s9YXk2fec
+### POSTMAN
+- Documentation: https://documenter.getpostman.com/view/14118125/2s9YXk31ay
+- Local Documentation: https://documenter.getpostman.com/view/14118125/2s9YXk2fec
